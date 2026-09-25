@@ -1,0 +1,56 @@
+# ==========================================
+# Données et fichiers volumineux
+# ==========================================
+# On ignore le dossier de données pour ne pas polluer Git
+data/
+*.zip
+*.csv
+*.parquet
+*.tar.gz
+
+# ==========================================
+# Environnements virtuels
+# ==========================================
+.venv/
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# ==========================================
+# Caches Python & Bytecode
+# ==========================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+.coverage
+htmlcov/
+
+# ==========================================
+# Checkpoints & Modèles entraînés (poids)
+# ==========================================
+*.pt
+*.pth
+*.onnx
+*.pkl
+checkpoints/
+models/
+
+# ==========================================
+# Jupyter Notebooks & Outils de dev
+# ==========================================
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# ==========================================
+# IDEs et OS
+# ==========================================
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+.DS_Store
+Thumbs.db
